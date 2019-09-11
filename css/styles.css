@@ -1,5 +1,68 @@
 /* COLORS */
 
 /* 
-
+header-bg-color: #7477BF
+disabled-icon-color: #A6A6B9
+icon-color: #fff
+line-graph-bg-color: #E2E3F6
+line-graph-point-color: #7478BF
+green-color: #7478BF
+purple-color: #4D4C72
+aqua-color: #73B1BF
+disabled-button-color: #B2B2B2
 */
+
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* GRID LAYOUT */
+
+.grid-container {
+    display: grid;
+}
+
+
+/* MAIN HEADER */
+
+.main-header {
+    background-color: #7477BF;
+    display: flex;
+    align-items: center;
+}
+
+.appName {
+    color: #fff;
+}
+
+.appNameBold {
+    font-weight: bold;
+}
+
+#Layer_1 {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;  
+}
+
+.profile-name {
+    border-left: 1px solid #4D4C72;
+    font-size: .7em;
+    text-align: right;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    background-color: #4D4C72;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
