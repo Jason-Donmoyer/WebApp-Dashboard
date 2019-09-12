@@ -1,3 +1,32 @@
+
+var linectx = document.getElementById('webTrafficChart');
+var lineChart = new Chart(linectx, {
+    type: 'line',
+    data: {
+        labels: ['Red', 'Green', 'Blue'],
+        datasets: [{
+            label: 'TRAFFIC',
+            data: [10, 4, 60, 8],
+            backgroundColor: [
+                'rgba(255, 0, 0, 0.5)',
+                'rgba(255, 0, 0, 0.5)',
+                'rgba(255, 0, 0, 0.5)',
+                'rgba(255, 0, 0, 0.5)'
+            ]
+        }]
+        
+    },
+    option: {
+
+    }
+});
+
+
+
+
+
+
+
 var ctx = document.getElementById('dailyTrafficChart');
 var myChart = new Chart(ctx, {
     type: 'bar',

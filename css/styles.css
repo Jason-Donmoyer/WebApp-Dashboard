@@ -44,6 +44,13 @@ disabled-button-color: #B2B2B2
     height: 30px;
 }
 
+.alert-indicator {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: green;
+}
+
 .profile-pic {
     border-radius: 50%;
     width: 50px;
@@ -65,4 +72,22 @@ disabled-button-color: #B2B2B2
 .icon {
     height: 100px;
     width: 100px;
+}
+
+/* SEARCHBAR */
+
+.main-searchbar {
+    width: 100%;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+/* ALERT */
+
+.alert {
+    display: flex;
+    background-color: #7477BF;
+    color: #FFF;
+    align-items: center;
+    justify-content: space-around;
 }
