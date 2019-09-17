@@ -91,3 +91,27 @@ disabled-button-color: #B2B2B2
     align-items: center;
     justify-content: space-around;
 }
+
+/* .charts {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+} */
+
+.line-chart {
+    position: relative;
+    height: 30vh;
+    width: 80vw;
+    margin: 2em auto 6em auto;
+    padding: 0;
+}
+
+
+.bar-chart {
+    position: relative;
+    height: 30vh;
+    width: 80vw;
+    margin: 2em auto 6em auto;
+    padding: 0;
+
+}

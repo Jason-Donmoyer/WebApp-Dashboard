@@ -6,24 +6,36 @@ var lineChart = new Chart(linectx, {
         labels: ['Red', 'Green', 'Blue'],
         datasets: [{
             label: 'TRAFFIC',
-            data: [10, 4, 60, 8],
+            data: [[1.0, 0.3], [4, 8], [60, 8]],
             backgroundColor: [
                 'rgba(255, 0, 0, 0.5)',
                 'rgba(255, 0, 0, 0.5)',
                 'rgba(255, 0, 0, 0.5)',
                 'rgba(255, 0, 0, 0.5)'
-            ]
+            ],
+            showLine: true,
+            borderWidth: 1,
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)'
+            ] 
         }]
         
     },
     option: {
+        layout: {
+           padding: {
+                bottom: 60
+           } 
+        },
+        responive: true,
+        maintainAspectRation: false
+        
 
     }
 });
-
-
-
-
 
 
 
@@ -55,6 +67,8 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
+        responive: true,
+        maintainAspectRation: false,
         scales: {
             yAxes: [{
                 ticks: {
